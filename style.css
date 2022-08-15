@@ -221,7 +221,34 @@ height: 10%;
  }
 /* .imager: */
 @media screen and (max-width: 1200px) {
-      .Dev{
+    .req
+    {
+        /* position: absolute; */
+        left: 50%;
+    }
+    .req1
+    {
+        /* position: absolute; */
+        left: 70%;
+    }
+    .req2
+    {
+        
+        /* position: absolute; */
+        left: 90%;
+    }
+    .req3
+    {
+        right: 90%;
+    }
+    .req4
+    {
+        right: 90%;
+    }
+    .logo{
+        left: 10%;
+    }
+    .Dev{
         width: 0%;
         height : 0%;
       }
