@@ -25,6 +25,7 @@
     position: absolute;
     left:30%
 } 
+.card { width:70%; height: auto; }
 .wrap{
     position:absolute;
     width:100%;
@@ -96,6 +97,7 @@ height: 10%;
 }
 
 .card{
+        display: flex;
         position: absolute;
         top: 700px;
         left: 25%;
@@ -217,22 +219,30 @@ height: 10%;
 .imager:hover .sh{
     bottom: 17%;
  }
-.imager:
+/* .imager: */
 @media screen and (max-width: 1200px) {
-    /* body { */
-      .image{
-  width: 0%;
-  height: 0%;
+      .Dev{
+        width: 0%;
+        height : 0%;
       }
+      .sh{
+        width: 0%;
+        height: 0%;
+            }
       .imager img{
         width: 0%;
         height: 0%;
             }
-            *{
-                /* background-color: #212121; */
-             /* height: 50%;
-             width: 100%;
-                 */
-            }
+.icon{
+    left:24%
+}
+
+             .card{
+                /* offset-position: bottom; */
+                position: absolute;
+                top: 820px;
+                left: 25%;
+                  }
+            
     }
   /* } */
