@@ -234,14 +234,26 @@ height: 10%;
         height: 0%;
             }
 .icon{
-    left:24%
+    left:20%
 }
-
+.icon1{
+    left:80%
+}
+.icon2{
+    left:50%
+}
+.text{
+    /* text:none; */
+    text-rendering: none;
+    text-size-adjust: auto;
+}
              .card{
                 /* offset-position: bottom; */
                 position: absolute;
                 top: 820px;
                 left: 25%;
+                width: 60%;
+                height: 60%;
                   }
             
     }
